@@ -61,6 +61,6 @@ def get_kategorie(klassenkuerzel, bewerbskuerzel):
         ('U20W', '7-K'): 'U20W*',
         ('WOM', '5-K'): 'WOM',
         ('WOM', '7-K'): 'WOM*',
-        ('WOM', '10-K'): 'WOM-10K',
+        ('WOM', '10-K'): 'WOM-10K*',
     }
     return bewerbskuerzel_kategorie_mapping[(klassenkuerzel, bewerbskuerzel)]
